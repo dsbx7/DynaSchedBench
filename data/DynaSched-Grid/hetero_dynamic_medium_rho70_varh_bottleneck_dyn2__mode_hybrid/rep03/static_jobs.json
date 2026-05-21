@@ -1,0 +1,5608 @@
+{
+  "jobs": {
+    "Job-1-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        21.0082,
+        11.3358
+      ],
+      "arrival_type": "emergency",
+      "due_date": 301.5512
+    },
+    "Job-1-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        74.3888,
+        0.001,
+        3.4823
+      ],
+      "arrival_type": "emergency",
+      "due_date": 393.8833
+    },
+    "Job-1-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.2511,
+        5.157
+      ],
+      "arrival_type": "emergency",
+      "due_date": 33.3024
+    },
+    "Job-1-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.6877,
+        5.4908
+      ],
+      "arrival_type": "emergency",
+      "due_date": 42.1119
+    },
+    "Job-2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1054,
+        2.3641
+      ],
+      "arrival_type": "emergency",
+      "due_date": 35.9294
+    },
+    "Job-3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.2644,
+        0.01
+      ],
+      "arrival_type": "emergency",
+      "due_date": 15.4543
+    },
+    "Job-4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0256,
+        2.0568,
+        3.709
+      ],
+      "arrival_type": "planned",
+      "due_date": 72.9831
+    },
+    "Job-5": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        17.1039,
+        1.374
+      ],
+      "arrival_type": "emergency",
+      "due_date": 175.7939
+    },
+    "Job-6-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.2166,
+        11.5449
+      ],
+      "arrival_type": "planned",
+      "due_date": 171.0889
+    },
+    "Job-6-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.2721
+      ],
+      "arrival_type": "planned",
+      "due_date": 25.0769
+    },
+    "Job-6-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        41.9656,
+        5.2028
+      ],
+      "arrival_type": "planned",
+      "due_date": 258.4329
+    },
+    "Job-6-B4": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.1793
+      ],
+      "arrival_type": "planned",
+      "due_date": 24.6151
+    },
+    "Job-7-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0034,
+        3.2962
+      ],
+      "arrival_type": "planned",
+      "due_date": 62.9595
+    },
+    "Job-7-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        72.5228,
+        0.2807,
+        10.221
+      ],
+      "arrival_type": "planned",
+      "due_date": 439.0442
+    },
+    "Job-7-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.4251,
+        1.6947,
+        0.6216
+      ],
+      "arrival_type": "planned",
+      "due_date": 64.4355
+    },
+    "Job-7-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        21.9126,
+        7.3797
+      ],
+      "arrival_type": "planned",
+      "due_date": 171.6728
+    },
+    "Job-8-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        11.5856,
+        17.0707,
+        2.0621
+      ],
+      "arrival_type": "planned",
+      "due_date": 240.6332
+    },
+    "Job-8-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.1649,
+        14.0812,
+        9.8224
+      ],
+      "arrival_type": "planned",
+      "due_date": 172.3521
+    },
+    "Job-9": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.7217
+      ],
+      "arrival_type": "planned",
+      "due_date": 36.4994
+    },
+    "Job-10-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.3185,
+        3.0288
+      ],
+      "arrival_type": "planned",
+      "due_date": 70.044
+    },
+    "Job-10-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        7.5806
+      ],
+      "arrival_type": "planned",
+      "due_date": 71.2056
+    },
+    "Job-10-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.3083
+      ],
+      "arrival_type": "planned",
+      "due_date": 39.9946
+    },
+    "Job-10-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.2722,
+        0.6574
+      ],
+      "arrival_type": "planned",
+      "due_date": 82.8942
+    },
+    "Job-11": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.605,
+        0.5498
+      ],
+      "arrival_type": "emergency",
+      "due_date": 47.9174
+    },
+    "Job-12": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.9717
+      ],
+      "arrival_type": "planned",
+      "due_date": 62.2048
+    },
+    "Job-13": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.8131,
+        27.833
+      ],
+      "arrival_type": "planned",
+      "due_date": 384.3558
+    },
+    "Job-14-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.6584,
+        0.0988,
+        13.5562
+      ],
+      "arrival_type": "planned",
+      "due_date": 198.2976
+    },
+    "Job-14-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0045
+      ],
+      "arrival_type": "planned",
+      "due_date": 42.2526
+    },
+    "Job-14-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.9804,
+        88.8956
+      ],
+      "arrival_type": "planned",
+      "due_date": 489.4532
+    },
+    "Job-14-B4": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.4067
+      ],
+      "arrival_type": "planned",
+      "due_date": 54.2059
+    },
+    "Job-15": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        23.0172,
+        0.6843
+      ],
+      "arrival_type": "planned",
+      "due_date": 235.6062
+    },
+    "Job-16-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.0712,
+        0.0239,
+        0.0943
+      ],
+      "arrival_type": "planned",
+      "due_date": 65.6628
+    },
+    "Job-16-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.4288,
+        1.5404,
+        0.7796
+      ],
+      "arrival_type": "planned",
+      "due_date": 74.2592
+    },
+    "Job-16-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        19.4118,
+        0.1295,
+        35.9417
+      ],
+      "arrival_type": "planned",
+      "due_date": 321.7366
+    },
+    "Job-17": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0278,
+        0.0744
+      ],
+      "arrival_type": "planned",
+      "due_date": 50.104
+    },
+    "Job-18": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        8.9029,
+        1.0721,
+        6.1728
+      ],
+      "arrival_type": "planned",
+      "due_date": 178.5519
+    },
+    "Job-19": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.4664,
+        0.5608,
+        0.7018
+      ],
+      "arrival_type": "planned",
+      "due_date": 105.617
+    },
+    "Job-20": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        50.9813,
+        1.3182,
+        3.0598
+      ],
+      "arrival_type": "planned",
+      "due_date": 344.5805
+    },
+    "Job-21-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.4093,
+        2.7177,
+        17.3354
+      ],
+      "arrival_type": "planned",
+      "due_date": 287.7498
+    },
+    "Job-21-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        10.3778,
+        17.4345
+      ],
+      "arrival_type": "planned",
+      "due_date": 203.2482
+    },
+    "Job-21-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.1674
+      ],
+      "arrival_type": "planned",
+      "due_date": 65.6872
+    },
+    "Job-22-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.4984,
+        2.2121,
+        0.3262
+      ],
+      "arrival_type": "emergency",
+      "due_date": 93.7507
+    },
+    "Job-22-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.4825,
+        2.916
+      ],
+      "arrival_type": "emergency",
+      "due_date": 127.206
+    },
+    "Job-23-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.5375,
+        1.8723
+      ],
+      "arrival_type": "planned",
+      "due_date": 115.5415
+    },
+    "Job-23-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0423,
+        12.9749
+      ],
+      "arrival_type": "planned",
+      "due_date": 131.0247
+    },
+    "Job-23-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.1221,
+        14.2473,
+        0.0939
+      ],
+      "arrival_type": "planned",
+      "due_date": 173.0525
+    },
+    "Job-23-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1284,
+        15.9067
+      ],
+      "arrival_type": "planned",
+      "due_date": 146.0418
+    },
+    "Job-24": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        47.2137,
+        2.7403,
+        0.0245
+      ],
+      "arrival_type": "emergency",
+      "due_date": 311.8209
+    },
+    "Job-25": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.1624
+      ],
+      "arrival_type": "planned",
+      "due_date": 88.0517
+    },
+    "Job-26-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.8106
+      ],
+      "arrival_type": "emergency",
+      "due_date": 89.2768
+    },
+    "Job-26-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        20.9713
+      ],
+      "arrival_type": "emergency",
+      "due_date": 184.527
+    },
+    "Job-26-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.7755,
+        0.001
+      ],
+      "arrival_type": "emergency",
+      "due_date": 84.0377
+    },
+    "Job-26-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.4665,
+        7.0488,
+        0.1584
+      ],
+      "arrival_type": "emergency",
+      "due_date": 118.3581
+    },
+    "Job-27": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        31.0099,
+        13.1221,
+        1.9184
+      ],
+      "arrival_type": "planned",
+      "due_date": 349.5169
+    },
+    "Job-28": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.5772,
+        6.2985
+      ],
+      "arrival_type": "emergency",
+      "due_date": 199.7782
+    },
+    "Job-29": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.4022,
+        2.2496,
+        0.8931
+      ],
+      "arrival_type": "planned",
+      "due_date": 135.4698
+    },
+    "Job-30": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0893,
+        17.9875
+      ],
+      "arrival_type": "planned",
+      "due_date": 304.1367
+    },
+    "Job-31": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.3751
+      ],
+      "arrival_type": "planned",
+      "due_date": 111.4476
+    },
+    "Job-32-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.2934
+      ],
+      "arrival_type": "planned",
+      "due_date": 162.8327
+    },
+    "Job-32-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        6.5083
+      ],
+      "arrival_type": "planned",
+      "due_date": 169.4609
+    },
+    "Job-33": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0011,
+        1.7454
+      ],
+      "arrival_type": "planned",
+      "due_date": 167.7785
+    },
+    "Job-34-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.7265,
+        10.0841
+      ],
+      "arrival_type": "planned",
+      "due_date": 277.7817
+    },
+    "Job-34-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.7729
+      ],
+      "arrival_type": "planned",
+      "due_date": 179.4639
+    },
+    "Job-35": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.1636
+      ],
+      "arrival_type": "planned",
+      "due_date": 157.7247
+    },
+    "Job-36-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.9858
+      ],
+      "arrival_type": "planned",
+      "due_date": 179.8826
+    },
+    "Job-36-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.9086
+      ],
+      "arrival_type": "planned",
+      "due_date": 206.8883
+    },
+    "Job-36-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.8201,
+        22.2266,
+        2.9748
+      ],
+      "arrival_type": "planned",
+      "due_date": 301.9941
+    },
+    "Job-36-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0043,
+        3.8274,
+        5.0198
+      ],
+      "arrival_type": "planned",
+      "due_date": 201.6282
+    },
+    "Job-37-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.54
+      ],
+      "arrival_type": "planned",
+      "due_date": 269.1152
+    },
+    "Job-37-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.4169,
+        3.6614
+      ],
+      "arrival_type": "planned",
+      "due_date": 212.1249
+    },
+    "Job-37-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.7751
+      ],
+      "arrival_type": "planned",
+      "due_date": 180.7602
+    },
+    "Job-37-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1631,
+        3.9308,
+        29.4826
+      ],
+      "arrival_type": "planned",
+      "due_date": 329.052
+    },
+    "Job-38": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        24.0324,
+        55.7804,
+        6.7643
+      ],
+      "arrival_type": "planned",
+      "due_date": 824.8052
+    },
+    "Job-39": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0215,
+        56.3601,
+        1.5868
+      ],
+      "arrival_type": "planned",
+      "due_date": 662.456
+    },
+    "Job-40-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.9991,
+        2.2975,
+        2.8955
+      ],
+      "arrival_type": "planned",
+      "due_date": 303.8191
+    },
+    "Job-40-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.1655,
+        0.3061
+      ],
+      "arrival_type": "planned",
+      "due_date": 238.3417
+    },
+    "Job-40-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1241,
+        0.3587,
+        10.162
+      ],
+      "arrival_type": "planned",
+      "due_date": 269.0595
+    },
+    "Job-41-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        40.619,
+        3.325
+      ],
+      "arrival_type": "planned",
+      "due_date": 592.6856
+    },
+    "Job-41-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        14.1899,
+        24.7843,
+        0.2285
+      ],
+      "arrival_type": "planned",
+      "due_date": 425.884
+    },
+    "Job-41-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        36.1228,
+        0.2809
+      ],
+      "arrival_type": "planned",
+      "due_date": 411.9562
+    },
+    "Job-41-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.6999,
+        0.3832
+      ],
+      "arrival_type": "planned",
+      "due_date": 256.1049
+    },
+    "Job-41-B5": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.4432
+      ],
+      "arrival_type": "planned",
+      "due_date": 247.9448
+    },
+    "Job-42-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.5252
+      ],
+      "arrival_type": "planned",
+      "due_date": 246.1312
+    },
+    "Job-42-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        17.4431,
+        0.2286
+      ],
+      "arrival_type": "planned",
+      "due_date": 328.1679
+    },
+    "Job-43": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.983,
+        6.4489,
+        11.5046
+      ],
+      "arrival_type": "planned",
+      "due_date": 511.1086
+    },
+    "Job-44": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.1586,
+        3.5363
+      ],
+      "arrival_type": "planned",
+      "due_date": 366.0308
+    },
+    "Job-45": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.1362
+      ],
+      "arrival_type": "planned",
+      "due_date": 310.3893
+    },
+    "Job-46-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        8.0679,
+        12.1023,
+        0.4192
+      ],
+      "arrival_type": "planned",
+      "due_date": 473.3561
+    },
+    "Job-46-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        24.6549
+      ],
+      "arrival_type": "planned",
+      "due_date": 457.4634
+    },
+    "Job-46-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0321
+      ],
+      "arrival_type": "planned",
+      "due_date": 334.9403
+    },
+    "Job-47": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0491,
+        0.0113,
+        2.6461
+      ],
+      "arrival_type": "planned",
+      "due_date": 381.5956
+    },
+    "Job-48": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.8221,
+        0.4883
+      ],
+      "arrival_type": "planned",
+      "due_date": 370.7396
+    },
+    "Job-49-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.7482,
+        4.2984
+      ],
+      "arrival_type": "planned",
+      "due_date": 427.288
+    },
+    "Job-49-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        8.7058,
+        1.3118,
+        19.0874
+      ],
+      "arrival_type": "planned",
+      "due_date": 517.862
+    },
+    "Job-50": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.6345,
+        0.1648,
+        1.9421
+      ],
+      "arrival_type": "planned",
+      "due_date": 425.2827
+    },
+    "Job-51-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.285,
+        0.2795
+      ],
+      "arrival_type": "emergency",
+      "due_date": 421.3007
+    },
+    "Job-51-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        8.8198,
+        59.621
+      ],
+      "arrival_type": "emergency",
+      "due_date": 740.4679
+    },
+    "Job-52-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.2569,
+        51.7368,
+        1.5379
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-52-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.0374
+      ],
+      "arrival_type": "planned",
+      "due_date": 445.6954
+    },
+    "Job-52-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        6.0307
+      ],
+      "arrival_type": "planned",
+      "due_date": 460.5901
+    },
+    "Job-117": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        24.8308,
+        7.1747
+      ],
+      "arrival_type": "planned",
+      "due_date": 736.4859
+    },
+    "Job-118-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.6283
+      ],
+      "arrival_type": "planned",
+      "due_date": 476.0123
+    },
+    "Job-118-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        11.1407
+      ],
+      "arrival_type": "planned",
+      "due_date": 513.1611
+    },
+    "Job-118-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.6407,
+        52.462
+      ],
+      "arrival_type": "planned",
+      "due_date": 726.94
+    },
+    "Job-116": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.001
+      ],
+      "arrival_type": "emergency",
+      "due_date": 457.9276
+    },
+    "Job-115-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.5442
+      ],
+      "arrival_type": "emergency",
+      "due_date": 520.8831
+    },
+    "Job-115-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.227,
+        0.8892,
+        4.0477
+      ],
+      "arrival_type": "emergency",
+      "due_date": 489.2898
+    },
+    "Job-115-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.005,
+        2.6932,
+        13.3614
+      ],
+      "arrival_type": "emergency",
+      "due_date": 538.5308
+    },
+    "Job-114": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        12.8625,
+        1.2177
+      ],
+      "arrival_type": "planned",
+      "due_date": 575.6415
+    },
+    "Job-113-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.2661,
+        2.877
+      ],
+      "arrival_type": "planned",
+      "due_date": 567.5949
+    },
+    "Job-113-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        17.927,
+        19.5015
+      ],
+      "arrival_type": "planned",
+      "due_date": 647.4932
+    },
+    "Job-113-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.8071,
+        0.145
+      ],
+      "arrival_type": "planned",
+      "due_date": 465.9866
+    },
+    "Job-113-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        32.8601,
+        15.9426
+      ],
+      "arrival_type": "planned",
+      "due_date": 704.0912
+    },
+    "Job-112-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.8166,
+        8.747
+      ],
+      "arrival_type": "planned",
+      "due_date": 568.728
+    },
+    "Job-112-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.7481,
+        0.0264
+      ],
+      "arrival_type": "planned",
+      "due_date": 477.7774
+    },
+    "Job-112-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.937
+      ],
+      "arrival_type": "planned",
+      "due_date": 468.634
+    },
+    "Job-112-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        37.5474,
+        4.0465
+      ],
+      "arrival_type": "planned",
+      "due_date": 670.9427
+    },
+    "Job-53-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        26.6586,
+        5.8614
+      ],
+      "arrival_type": "planned",
+      "due_date": 744.8907
+    },
+    "Job-53-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        4.1352
+      ],
+      "arrival_type": "planned",
+      "due_date": 486.6473
+    },
+    "Job-53-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.6911
+      ],
+      "arrival_type": "planned",
+      "due_date": 514.2934
+    },
+    "Job-111": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.0684
+      ],
+      "arrival_type": "planned",
+      "due_date": 478.1753
+    },
+    "Job-110": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.9046,
+        1.1227,
+        0.0764
+      ],
+      "arrival_type": "emergency",
+      "due_date": 522.1118
+    },
+    "Job-119-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.6971,
+        0.3032
+      ],
+      "arrival_type": "planned",
+      "due_date": 494.4964
+    },
+    "Job-119-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.5481
+      ],
+      "arrival_type": "planned",
+      "due_date": 472.2699
+    },
+    "Job-120": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.4529,
+        2.7316,
+        10.5557
+      ],
+      "arrival_type": "planned",
+      "due_date": 612.1156
+    },
+    "Job-121-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.5535,
+        19.0956
+      ],
+      "arrival_type": "planned",
+      "due_date": 706.997
+    },
+    "Job-121-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.1289,
+        3.741
+      ],
+      "arrival_type": "planned",
+      "due_date": 501.3486
+    },
+    "Job-121-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.4537,
+        9.9615,
+        0.1401
+      ],
+      "arrival_type": "planned",
+      "due_date": 554.5192
+    },
+    "Job-122": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        4.3032
+      ],
+      "arrival_type": "planned",
+      "due_date": 521.7723
+    },
+    "Job-123-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.5326,
+        1.8842,
+        1.0096
+      ],
+      "arrival_type": "emergency",
+      "due_date": 535.2911
+    },
+    "Job-123-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.2563,
+        13.1634
+      ],
+      "arrival_type": "emergency",
+      "due_date": 545.947
+    },
+    "Job-123-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.5751,
+        16.0185
+      ],
+      "arrival_type": "emergency",
+      "due_date": 601.5484
+    },
+    "Job-109": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        15.3949,
+        6.2191,
+        0.0832
+      ],
+      "arrival_type": "planned",
+      "due_date": 597.217
+    },
+    "Job-124": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.7021,
+        35.2364,
+        21.188
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-108": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.8748
+      ],
+      "arrival_type": "emergency",
+      "due_date": 544.6703
+    },
+    "Job-107": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.4593,
+        8.5695,
+        0.2796
+      ],
+      "arrival_type": "planned",
+      "due_date": 585.1788
+    },
+    "Job-106-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.196
+      ],
+      "arrival_type": "emergency",
+      "due_date": 481.412
+    },
+    "Job-106-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0069,
+        0.0126
+      ],
+      "arrival_type": "emergency",
+      "due_date": 479.3081
+    },
+    "Job-106-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.7483,
+        8.076
+      ],
+      "arrival_type": "emergency",
+      "due_date": 552.9768
+    },
+    "Job-106-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        11.7713,
+        12.1202
+      ],
+      "arrival_type": "emergency",
+      "due_date": 598.0952
+    },
+    "Job-106-B5": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.9007,
+        1.0641
+      ],
+      "arrival_type": "emergency",
+      "due_date": 488.9879
+    },
+    "Job-105": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.5027
+      ],
+      "arrival_type": "emergency",
+      "due_date": 486.1266
+    },
+    "Job-104-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.5846,
+        5.4602
+      ],
+      "arrival_type": "planned",
+      "due_date": 554.7558
+    },
+    "Job-104-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.5207,
+        12.6821
+      ],
+      "arrival_type": "planned",
+      "due_date": 546.471
+    },
+    "Job-54": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        8.7405
+      ],
+      "arrival_type": "planned",
+      "due_date": 579.3528
+    },
+    "Job-125-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.8667
+      ],
+      "arrival_type": "planned",
+      "due_date": 515.7747
+    },
+    "Job-125-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0677,
+        0.299
+      ],
+      "arrival_type": "planned",
+      "due_date": 496.6342
+    },
+    "Job-125-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        60.2032,
+        0.0539
+      ],
+      "arrival_type": "planned",
+      "due_date": 794.6488
+    },
+    "Job-103": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        34.383,
+        1.236,
+        6.3191
+      ],
+      "arrival_type": "emergency",
+      "due_date": 734.8395
+    },
+    "Job-102": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.2738
+      ],
+      "arrival_type": "planned",
+      "due_date": 555.3218
+    },
+    "Job-101": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.1144,
+        5.478,
+        0.6291
+      ],
+      "arrival_type": "planned",
+      "due_date": 580.1975
+    },
+    "Job-100-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.6619
+      ],
+      "arrival_type": "emergency",
+      "due_date": 523.1404
+    },
+    "Job-100-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.4037,
+        1.0762
+      ],
+      "arrival_type": "emergency",
+      "due_date": 526.7693
+    },
+    "Job-100-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.6849,
+        0.0817
+      ],
+      "arrival_type": "emergency",
+      "due_date": 518.2439
+    },
+    "Job-99": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.3473,
+        7.2971
+      ],
+      "arrival_type": "planned",
+      "due_date": 631.2981
+    },
+    "Job-126": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.3038
+      ],
+      "arrival_type": "planned",
+      "due_date": 514.5647
+    },
+    "Job-55": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.8767,
+        10.7624
+      ],
+      "arrival_type": "planned",
+      "due_date": 690.7328
+    },
+    "Job-98": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        16.3779
+      ],
+      "arrival_type": "emergency",
+      "due_date": 699.2618
+    },
+    "Job-97-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.1388,
+        7.6336
+      ],
+      "arrival_type": "planned",
+      "due_date": 636.9632
+    },
+    "Job-97-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.6331,
+        20.4158
+      ],
+      "arrival_type": "planned",
+      "due_date": 622.9059
+    },
+    "Job-97-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        20.4855,
+        2.5913,
+        67.3535
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-97-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.3126,
+        4.2612,
+        23.7745
+      ],
+      "arrival_type": "planned",
+      "due_date": 669.1797
+    },
+    "Job-97-B5": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        26.7305,
+        22.3359,
+        4.979
+      ],
+      "arrival_type": "planned",
+      "due_date": 787.0965
+    },
+    "Job-96-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        6.4967
+      ],
+      "arrival_type": "emergency",
+      "due_date": 591.1832
+    },
+    "Job-96-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        12.3507,
+        1.0086
+      ],
+      "arrival_type": "emergency",
+      "due_date": 584.6975
+    },
+    "Job-96-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        13.6486
+      ],
+      "arrival_type": "emergency",
+      "due_date": 586.137
+    },
+    "Job-95": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1761,
+        3.7972
+      ],
+      "arrival_type": "planned",
+      "due_date": 570.2604
+    },
+    "Job-94": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        38.6782,
+        18.6406,
+        15.064
+      ],
+      "arrival_type": "emergency",
+      "due_date": 856.8306
+    },
+    "Job-93": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.5209
+      ],
+      "arrival_type": "emergency",
+      "due_date": 549.0008
+    },
+    "Job-127-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.3216,
+        12.5151,
+        0.1189
+      ],
+      "arrival_type": "emergency",
+      "due_date": 692.087
+    },
+    "Job-127-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.0504
+      ],
+      "arrival_type": "emergency",
+      "due_date": 567.2265
+    },
+    "Job-127-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0046,
+        0.0194
+      ],
+      "arrival_type": "emergency",
+      "due_date": 557.1431
+    },
+    "Job-128": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0335,
+        0.3144,
+        0.111
+      ],
+      "arrival_type": "emergency",
+      "due_date": 561.6564
+    },
+    "Job-56-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.3106,
+        0.008
+      ],
+      "arrival_type": "planned",
+      "due_date": 621.5286
+    },
+    "Job-56-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.2034,
+        5.2586,
+        13.1452
+      ],
+      "arrival_type": "planned",
+      "due_date": 671.599
+    },
+    "Job-92-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1538,
+        0.0054,
+        9.314
+      ],
+      "arrival_type": "emergency",
+      "due_date": 696.0044
+    },
+    "Job-92-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0096,
+        0.9852
+      ],
+      "arrival_type": "emergency",
+      "due_date": 595.6016
+    },
+    "Job-92-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.6693,
+        0.6242
+      ],
+      "arrival_type": "emergency",
+      "due_date": 597.088
+    },
+    "Job-129": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0751,
+        1.8467
+      ],
+      "arrival_type": "emergency",
+      "due_date": 612.3403
+    },
+    "Job-91": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.4611,
+        36.2647
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-90-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.7931
+      ],
+      "arrival_type": "planned",
+      "due_date": 706.8342
+    },
+    "Job-90-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.6771,
+        1.8863
+      ],
+      "arrival_type": "planned",
+      "due_date": 614.5826
+    },
+    "Job-90-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        8.219,
+        18.2299,
+        20.1336
+      ],
+      "arrival_type": "planned",
+      "due_date": 828.6456
+    },
+    "Job-89": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.1029
+      ],
+      "arrival_type": "emergency",
+      "due_date": 599.0534
+    },
+    "Job-130": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.9792,
+        0.8101,
+        8.9787
+      ],
+      "arrival_type": "planned",
+      "due_date": 721.3105
+    },
+    "Job-88": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0154
+      ],
+      "arrival_type": "planned",
+      "due_date": 613.9497
+    },
+    "Job-131": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.1967
+      ],
+      "arrival_type": "emergency",
+      "due_date": 664.018
+    },
+    "Job-132": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        60.0203,
+        1.0015,
+        0.3628
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-133": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0655,
+        0.0597
+      ],
+      "arrival_type": "planned",
+      "due_date": 636.6278
+    },
+    "Job-87": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0112,
+        8.8121,
+        16.8433
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-134-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.3923,
+        0.7193
+      ],
+      "arrival_type": "planned",
+      "due_date": 661.1195
+    },
+    "Job-134-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        36.7343
+      ],
+      "arrival_type": "planned",
+      "due_date": 824.7067
+    },
+    "Job-134-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.7189,
+        41.4022
+      ],
+      "arrival_type": "planned",
+      "due_date": 851.5114
+    },
+    "Job-134-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        16.5797,
+        10.6937,
+        1.5615
+      ],
+      "arrival_type": "planned",
+      "due_date": 785.3993
+    },
+    "Job-86": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.2681,
+        3.2201
+      ],
+      "arrival_type": "emergency",
+      "due_date": 688.8042
+    },
+    "Job-135-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.7625
+      ],
+      "arrival_type": "planned",
+      "due_date": 675.6196
+    },
+    "Job-135-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        15.6643,
+        33.245,
+        0.4461
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-135-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.2772,
+        2.4883
+      ],
+      "arrival_type": "planned",
+      "due_date": 658.3568
+    },
+    "Job-85": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.0712,
+        0.1086
+      ],
+      "arrival_type": "planned",
+      "due_date": 654.5596
+    },
+    "Job-57": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.6683,
+        17.5507,
+        0.1265
+      ],
+      "arrival_type": "planned",
+      "due_date": 834.902
+    },
+    "Job-84": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.9513,
+        2.7862
+      ],
+      "arrival_type": "emergency",
+      "due_date": 765.6418
+    },
+    "Job-136-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        36.6392,
+        2.9758,
+        15.8044
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-136-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        16.7513,
+        19.3556
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-137": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        15.545,
+        56.3536
+      ],
+      "arrival_type": "emergency",
+      "due_date": 856.8306
+    },
+    "Job-83-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        12.9456,
+        4.4303,
+        0.4735
+      ],
+      "arrival_type": "planned",
+      "due_date": 824.8604
+    },
+    "Job-83-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.2821,
+        1.2572,
+        12.5625
+      ],
+      "arrival_type": "planned",
+      "due_date": 839.4559
+    },
+    "Job-83-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.5444,
+        1.689
+      ],
+      "arrival_type": "planned",
+      "due_date": 750.5427
+    },
+    "Job-82": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1575,
+        7.6669,
+        12.4326
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-81": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.1368
+      ],
+      "arrival_type": "planned",
+      "due_date": 736.6413
+    },
+    "Job-80": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.5768
+      ],
+      "arrival_type": "emergency",
+      "due_date": 767.0568
+    },
+    "Job-58": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        19.9528,
+        3.3063
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-59": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0043,
+        8.4253,
+        2.4185
+      ],
+      "arrival_type": "planned",
+      "due_date": 847.6084
+    },
+    "Job-79": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.052,
+        1.491
+      ],
+      "arrival_type": "planned",
+      "due_date": 773.0244
+    },
+    "Job-60": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.172,
+        0.1578
+      ],
+      "arrival_type": "emergency",
+      "due_date": 760.4832
+    },
+    "Job-61": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.8179,
+        0.0336,
+        0.5207
+      ],
+      "arrival_type": "planned",
+      "due_date": 799.4039
+    },
+    "Job-62": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        16.4983,
+        56.1306,
+        0.1042
+      ],
+      "arrival_type": "emergency",
+      "due_date": 867.2333
+    },
+    "Job-78-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0059
+      ],
+      "arrival_type": "planned",
+      "due_date": 791.1293
+    },
+    "Job-78-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.3331
+      ],
+      "arrival_type": "planned",
+      "due_date": 807.6465
+    },
+    "Job-63": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.245,
+        4.4534
+      ],
+      "arrival_type": "planned",
+      "due_date": 846.7186
+    },
+    "Job-77": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        15.9776
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-76": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.567,
+        24.0733,
+        4.3028
+      ],
+      "arrival_type": "emergency",
+      "due_date": 856.8306
+    },
+    "Job-64": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.3407
+      ],
+      "arrival_type": "planned",
+      "due_date": 804.329
+    },
+    "Job-75": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.3668,
+        23.3856
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-74-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.108,
+        2.6796,
+        9.102
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-74-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        18.4398,
+        2.4745,
+        0.0194
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-74-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1128,
+        6.4965,
+        6.4042
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-73": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        28.9242
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-72-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.9105,
+        0.4774
+      ],
+      "arrival_type": "emergency",
+      "due_date": 828.6332
+    },
+    "Job-72-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.2735,
+        33.7145
+      ],
+      "arrival_type": "emergency",
+      "due_date": 861.136
+    },
+    "Job-65": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.6405,
+        1.4838
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-71": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        31.0323,
+        6.3933,
+        0.3191
+      ],
+      "arrival_type": "emergency",
+      "due_date": 866.942135
+    },
+    "Job-66-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.4136,
+        1.0582
+      ],
+      "arrival_type": "emergency",
+      "due_date": 856.8306
+    },
+    "Job-66-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        22.1019,
+        1.9827
+      ],
+      "arrival_type": "emergency",
+      "due_date": 856.8306
+    },
+    "Job-70": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.8368,
+        12.9912,
+        0.2206
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-138-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        18.8735
+      ],
+      "arrival_type": "planned",
+      "due_date": 870.6969
+    },
+    "Job-138-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        36.384
+      ],
+      "arrival_type": "planned",
+      "due_date": 877.9258000000001
+    },
+    "Job-138-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        14.7049,
+        10.6724,
+        2.1524
+      ],
+      "arrival_type": "planned",
+      "due_date": 868.6288
+    },
+    "Job-139": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.2964
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8306
+    },
+    "Job-67": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.0879,
+        11.3439
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.3169
+    },
+    "Job-68-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        4.8628
+      ],
+      "arrival_type": "emergency",
+      "due_date": 864.811
+    },
+    "Job-68-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.2024,
+        0.2963
+      ],
+      "arrival_type": "emergency",
+      "due_date": 858.404235
+    },
+    "Job-68-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        7.8535
+      ],
+      "arrival_type": "emergency",
+      "due_date": 865.0768
+    },
+    "Job-68-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0111,
+        3.5918
+      ],
+      "arrival_type": "emergency",
+      "due_date": 860.613645
+    },
+    "Job-69": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        51.8967,
+        11.561,
+        0.7366
+      ],
+      "arrival_type": "planned",
+      "due_date": 924.234615
+    },
+    "Job-140": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        44.0185,
+        0.0512,
+        5.4018
+      ],
+      "arrival_type": "planned",
+      "due_date": 908.775675
+    },
+    "Job-141": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.2282,
+        0.1879,
+        0.3173
+      ],
+      "arrival_type": "planned",
+      "due_date": 859.7006700000001
+    },
+    "Job-142": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.2115
+      ],
+      "arrival_type": "planned",
+      "due_date": 857.1776
+    },
+    "Job-143": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        19.5294,
+        1.6849
+      ],
+      "arrival_type": "planned",
+      "due_date": 879.1056150000001
+    },
+    "Job-144": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.3445
+      ],
+      "arrival_type": "planned",
+      "due_date": 857.396
+    },
+    "Job-145-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0583,
+        4.3572,
+        0.0897
+      ],
+      "arrival_type": "planned",
+      "due_date": 862.1045
+    },
+    "Job-145-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.6673,
+        10.8372,
+        0.0011
+      ],
+      "arrival_type": "planned",
+      "due_date": 876.26148
+    },
+    "Job-146": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.4878,
+        0.9849
+      ],
+      "arrival_type": "planned",
+      "due_date": 859.0162
+    },
+    "Job-147": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1616,
+        10.4848
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.2266
+    },
+    "Job-148-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.1701
+      ],
+      "arrival_type": "planned",
+      "due_date": 858.7508
+    },
+    "Job-148-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.8439,
+        33.0377,
+        9.6189
+      ],
+      "arrival_type": "planned",
+      "due_date": 902.506125
+    },
+    "Job-148-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.1193,
+        0.0296
+      ],
+      "arrival_type": "planned",
+      "due_date": 861.186945
+    },
+    "Job-149-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.7407,
+        0.1288
+      ],
+      "arrival_type": "planned",
+      "due_date": 864.9116
+    },
+    "Job-149-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        31.4843,
+        16.0958,
+        12.1499
+      ],
+      "arrival_type": "planned",
+      "due_date": 919.5471
+    },
+    "Job-149-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.3672,
+        26.1973,
+        4.5685
+      ],
+      "arrival_type": "planned",
+      "due_date": 889.52025
+    },
+    "Job-150": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.816,
+        3.5986
+      ],
+      "arrival_type": "emergency",
+      "due_date": 863.6892
+    },
+    "Job-151": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.6959
+      ],
+      "arrival_type": "emergency",
+      "due_date": 857.9727
+    },
+    "Job-152": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.2744
+      ],
+      "arrival_type": "planned",
+      "due_date": 857.2808
+    },
+    "Job-153": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        10.56,
+        7.4942
+      ],
+      "arrival_type": "emergency",
+      "due_date": 875.78751
+    },
+    "Job-154": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.8195
+      ],
+      "arrival_type": "planned",
+      "due_date": 861.4578
+    },
+    "Job-155": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.1643,
+        13.5818,
+        3.009
+      ],
+      "arrival_type": "emergency",
+      "due_date": 875.4734550000001
+    },
+    "Job-156": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        10.228
+      ],
+      "arrival_type": "planned",
+      "due_date": 873.6163
+    },
+    "Job-157": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.2313,
+        4.9917,
+        21.3302
+      ],
+      "arrival_type": "emergency",
+      "due_date": 888.91146
+    },
+    "Job-158": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.8223
+      ],
+      "arrival_type": "emergency",
+      "due_date": 863.1035
+    },
+    "Job-159": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        33.964,
+        24.6119,
+        0.2309
+      ],
+      "arrival_type": "planned",
+      "due_date": 918.57774
+    },
+    "Job-160-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.8523
+      ],
+      "arrival_type": "planned",
+      "due_date": 863.153
+    },
+    "Job-160-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.308,
+        13.738,
+        0.6907
+      ],
+      "arrival_type": "planned",
+      "due_date": 873.354135
+    },
+    "Job-160-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.2522,
+        6.1039
+      ],
+      "arrival_type": "planned",
+      "due_date": 870.854505
+    },
+    "Job-161-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        38.1456,
+        9.123,
+        9.3815
+      ],
+      "arrival_type": "planned",
+      "due_date": 916.313205
+    },
+    "Job-161-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        21.4337,
+        32.2119
+      ],
+      "arrival_type": "planned",
+      "due_date": 913.15848
+    },
+    "Job-161-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.8285,
+        25.7532,
+        11.7202
+      ],
+      "arrival_type": "planned",
+      "due_date": 902.297595
+    },
+    "Job-162": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        6.8287
+      ],
+      "arrival_type": "planned",
+      "due_date": 868.0376
+    },
+    "Job-163": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0019,
+        0.0782
+      ],
+      "arrival_type": "emergency",
+      "due_date": 856.9612
+    },
+    "Job-164": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.2534,
+        5.4515
+      ],
+      "arrival_type": "planned",
+      "due_date": 873.0786
+    },
+    "Job-165": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.2733,
+        21.2535
+      ],
+      "arrival_type": "planned",
+      "due_date": 883.63374
+    },
+    "Job-166": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.3474,
+        1.056,
+        2.0356
+      ],
+      "arrival_type": "planned",
+      "due_date": 861.638
+    },
+    "Job-167-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        14.5026,
+        0.9535,
+        16.8906
+      ],
+      "arrival_type": "planned",
+      "due_date": 890.794635
+    },
+    "Job-167-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.6795,
+        81.2794
+      ],
+      "arrival_type": "planned",
+      "due_date": 952.337445
+    },
+    "Job-168": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.7231,
+        0.2415
+      ],
+      "arrival_type": "emergency",
+      "due_date": 862.7417
+    },
+    "Job-169": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0092,
+        2.5891
+      ],
+      "arrival_type": "emergency",
+      "due_date": 861.0906
+    },
+    "Job-170": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        13.9237,
+        0.5063
+      ],
+      "arrival_type": "emergency",
+      "due_date": 873.9181
+    },
+    "Job-171": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.5179
+      ],
+      "arrival_type": "emergency",
+      "due_date": 857.6806
+    },
+    "Job-172": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.0596,
+        4.7176
+      ],
+      "arrival_type": "planned",
+      "due_date": 865.8102
+    },
+    "Job-173": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0182,
+        0.6489,
+        7.0537
+      ],
+      "arrival_type": "planned",
+      "due_date": 869.1765
+    },
+    "Job-174-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.7401
+      ],
+      "arrival_type": "planned",
+      "due_date": 862.9686
+    },
+    "Job-174-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        13.6415,
+        1.2179,
+        1.5862
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.0985
+    },
+    "Job-174-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        27.5173
+      ],
+      "arrival_type": "planned",
+      "due_date": 885.723765
+    },
+    "Job-175": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        8.5448
+      ],
+      "arrival_type": "planned",
+      "due_date": 870.854
+    },
+    "Job-176": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        13.0089
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.3169
+    },
+    "Job-177": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.3079
+      ],
+      "arrival_type": "emergency",
+      "due_date": 865.5419
+    },
+    "Job-178-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.0164,
+        4.7423
+      ],
+      "arrival_type": "emergency",
+      "due_date": 866.9678
+    },
+    "Job-178-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        15.7179,
+        1.7197
+      ],
+      "arrival_type": "emergency",
+      "due_date": 875.14008
+    },
+    "Job-178-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.1347
+      ],
+      "arrival_type": "emergency",
+      "due_date": 859.072035
+    },
+    "Job-179": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.4473
+      ],
+      "arrival_type": "planned",
+      "due_date": 872.3352
+    },
+    "Job-180": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.2575,
+        8.6714
+      ],
+      "arrival_type": "emergency",
+      "due_date": 872.5298
+    },
+    "Job-181": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.5664
+      ],
+      "arrival_type": "emergency",
+      "due_date": 859.4015
+    },
+    "Job-182": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.8383
+      ],
+      "arrival_type": "planned",
+      "due_date": 863.1299
+    },
+    "Job-183": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.3528
+      ],
+      "arrival_type": "planned",
+      "due_date": 860.6925
+    },
+    "Job-184": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.7321
+      ],
+      "arrival_type": "planned",
+      "due_date": 862.9555
+    },
+    "Job-185": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0113
+      ],
+      "arrival_type": "planned",
+      "due_date": 856.8492
+    },
+    "Job-186-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        11.0665
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.3169
+    },
+    "Job-186-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        14.2559,
+        0.8839
+      ],
+      "arrival_type": "planned",
+      "due_date": 872.7274
+    },
+    "Job-187": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.3149,
+        0.0862
+      ],
+      "arrival_type": "planned",
+      "due_date": 859.6747
+    },
+    "Job-188-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        8.1403
+      ],
+      "arrival_type": "emergency",
+      "due_date": 870.1901
+    },
+    "Job-188-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0353,
+        3.8025
+      ],
+      "arrival_type": "emergency",
+      "due_date": 860.8603
+    },
+    "Job-188-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        15.6329,
+        1.8855,
+        22.7005
+      ],
+      "arrival_type": "emergency",
+      "due_date": 899.060445
+    },
+    "Job-189-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0412,
+        9.2205,
+        41.8618
+      ],
+      "arrival_type": "planned",
+      "due_date": 910.510275
+    },
+    "Job-189-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        42.4608,
+        13.6391,
+        0.0465
+      ],
+      "arrival_type": "planned",
+      "due_date": 915.78432
+    },
+    "Job-190-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        29.5668,
+        12.3923,
+        0.4793
+      ],
+      "arrival_type": "emergency",
+      "due_date": 901.39092
+    },
+    "Job-190-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.0652,
+        0.3855,
+        12.0442
+      ],
+      "arrival_type": "emergency",
+      "due_date": 871.000245
+    },
+    "Job-190-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        8.0042,
+        101.7173,
+        1.2386
+      ],
+      "arrival_type": "emergency",
+      "due_date": 973.338705
+    },
+    "Job-191-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        27.9412,
+        0.5485
+      ],
+      "arrival_type": "planned",
+      "due_date": 886.744785
+    },
+    "Job-191-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        40.7837
+      ],
+      "arrival_type": "planned",
+      "due_date": 899.653485
+    },
+    "Job-191-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.2391,
+        37.0943
+      ],
+      "arrival_type": "planned",
+      "due_date": 896.03067
+    },
+    "Job-191-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.2073,
+        0.574
+      ],
+      "arrival_type": "planned",
+      "due_date": 858.701
+    },
+    "Job-192-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        10.8459,
+        0.384,
+        3.2653
+      ],
+      "arrival_type": "planned",
+      "due_date": 872.05056
+    },
+    "Job-192-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        24.9775,
+        7.7336
+      ],
+      "arrival_type": "planned",
+      "due_date": 891.1772550000001
+    },
+    "Job-192-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0686,
+        20.1594
+      ],
+      "arrival_type": "planned",
+      "due_date": 878.07
+    },
+    "Job-192-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.4979,
+        0.2678,
+        0.0642
+      ],
+      "arrival_type": "planned",
+      "due_date": 857.702
+    },
+    "Job-193-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        83.6863,
+        13.0223,
+        6.744
+      ],
+      "arrival_type": "emergency",
+      "due_date": 965.45583
+    },
+    "Job-193-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        12.3099
+      ],
+      "arrival_type": "emergency",
+      "due_date": 869.756
+    },
+    "Job-193-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        19.028
+      ],
+      "arrival_type": "emergency",
+      "due_date": 876.81
+    },
+    "Job-194-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1971,
+        0.3055
+      ],
+      "arrival_type": "planned",
+      "due_date": 857.562
+    },
+    "Job-194-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        8.0217,
+        2.6546
+      ],
+      "arrival_type": "planned",
+      "due_date": 868.040715
+    },
+    "Job-194-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.8104
+      ],
+      "arrival_type": "planned",
+      "due_date": 859.78152
+    },
+    "Job-195-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.7265,
+        6.9555
+      ],
+      "arrival_type": "emergency",
+      "due_date": 870.2613
+    },
+    "Job-195-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.7886
+      ],
+      "arrival_type": "emergency",
+      "due_date": 857.65863
+    },
+    "Job-196-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        6.8343
+      ],
+      "arrival_type": "planned",
+      "due_date": 868.0469
+    },
+    "Job-196-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.1901,
+        8.4279
+      ],
+      "arrival_type": "planned",
+      "due_date": 869.0295
+    },
+    "Job-196-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.8213,
+        25.4357
+      ],
+      "arrival_type": "planned",
+      "due_date": 886.50045
+    },
+    "Job-197": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.2237,
+        10.9662,
+        0.0309
+      ],
+      "arrival_type": "planned",
+      "due_date": 869.8356
+    },
+    "J_198": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.0712,
+        0.1086
+      ],
+      "arrival_type": "planned",
+      "due_date": 870.9480739795919
+    },
+    "J_199-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.001
+      ],
+      "arrival_type": "emergency",
+      "due_date": 865.5164479591838
+    },
+    "J_199-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.9318
+      ],
+      "arrival_type": "emergency",
+      "due_date": 866.4869379591837
+    },
+    "J_199-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.0366
+      ],
+      "arrival_type": "emergency",
+      "due_date": 868.697
+    },
+    "J_200": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.9858
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.3169398907106
+    },
+    "J_201-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.4473
+      ],
+      "arrival_type": "planned",
+      "due_date": 884.1061609183673
+    },
+    "J_201-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.0979,
+        16.9377
+      ],
+      "arrival_type": "planned",
+      "due_date": 893.1238759183673
+    },
+    "J_201-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        5.1695,
+        0.0853,
+        12.8773
+      ],
+      "arrival_type": "planned",
+      "due_date": 893.2252009183674
+    },
+    "J_202": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.6405,
+        1.4838
+      ],
+      "arrival_type": "planned",
+      "due_date": 885.9974548907106
+    },
+    "J_203": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        33.964,
+        24.6119,
+        0.2309
+      ],
+      "arrival_type": "planned",
+      "due_date": 936.0640798907106
+    },
+    "J_204": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.7021,
+        35.2364,
+        21.188
+      ],
+      "arrival_type": "planned",
+      "due_date": 936.3997648907106
+    },
+    "J_205": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.4878,
+        0.9849
+      ],
+      "arrival_type": "planned",
+      "due_date": 875.8632748907106
+    },
+    "J_206": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.2744
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.6050598907107
+    },
+    "J_207": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.5768
+      ],
+      "arrival_type": "emergency",
+      "due_date": 875.9725798907106
+    },
+    "J_208-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.4136,
+        1.0582
+      ],
+      "arrival_type": "emergency",
+      "due_date": 879.0123298907106
+    },
+    "J_208-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1186,
+        142.3497,
+        0.0421
+      ],
+      "arrival_type": "emergency",
+      "due_date": 1023.9528598907107
+    },
+    "J_209": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.3079
+      ],
+      "arrival_type": "emergency",
+      "due_date": 879.8902348907106
+    },
+    "J_210": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.1144,
+        5.478,
+        0.6291
+      ],
+      "arrival_type": "planned",
+      "due_date": 887.1495148907106
+    },
+    "J_211": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.2744
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.6050598907107
+    },
+    "J_212": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.3149,
+        0.0862
+      ],
+      "arrival_type": "planned",
+      "due_date": 876.8380948907106
+    },
+    "J_213-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.567,
+        24.0733,
+        4.3028
+      ],
+      "arrival_type": "emergency",
+      "due_date": 907.8571948907106
+    },
+    "J_213-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.7466
+      ],
+      "arrival_type": "emergency",
+      "due_date": 880.3508698907107
+    },
+    "J_213-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        11.8221,
+        35.2603
+      ],
+      "arrival_type": "emergency",
+      "due_date": 923.7534598907106
+    },
+    "J_214-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.052,
+        1.491
+      ],
+      "arrival_type": "planned",
+      "due_date": 875.9370898907106
+    },
+    "J_214-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.8868,
+        2.7798,
+        0.001
+      ],
+      "arrival_type": "planned",
+      "due_date": 878.1679198907107
+    },
+    "J_214-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.411
+      ],
+      "arrival_type": "planned",
+      "due_date": 876.8484898907107
+    },
+    "J_214-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        12.052,
+        0.6868
+      ],
+      "arrival_type": "planned",
+      "due_date": 887.6926798907106
+    },
+    "J_215": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.605,
+        0.5498
+      ],
+      "arrival_type": "emergency",
+      "due_date": 875.5294798907106
+    },
+    "J_216-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.1643,
+        13.5818,
+        3.009
+      ],
+      "arrival_type": "emergency",
+      "due_date": 892.9597948907107
+    },
+    "J_216-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.7366
+      ],
+      "arrival_type": "emergency",
+      "due_date": 877.1903698907106
+    },
+    "J_216-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        6.5836,
+        2.26
+      ],
+      "arrival_type": "emergency",
+      "due_date": 883.6027198907107
+    },
+    "J_217-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.4136,
+        1.0582
+      ],
+      "arrival_type": "emergency",
+      "due_date": 879.0123298907106
+    },
+    "J_217-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.7956,
+        0.0125,
+        9.8228
+      ],
+      "arrival_type": "emergency",
+      "due_date": 889.6793848907106
+    },
+    "J_217-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0428
+      ],
+      "arrival_type": "emergency",
+      "due_date": 874.3618798907106
+    },
+    "J_218": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.3923,
+        0.7193
+      ],
+      "arrival_type": "planned",
+      "due_date": 876.5341198907106
+    },
+    "J_219-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        15.545,
+        56.3536
+      ],
+      "arrival_type": "emergency",
+      "due_date": 949.8104698907106
+    },
+    "J_219-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        12.664,
+        22.6863,
+        25.5779
+      ],
+      "arrival_type": "emergency",
+      "due_date": 938.2915498907106
+    },
+    "J_219-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.7279
+      ],
+      "arrival_type": "emergency",
+      "due_date": 875.0812348907106
+    },
+    "J_220": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0583,
+        4.3572,
+        0.0897
+      ],
+      "arrival_type": "planned",
+      "due_date": 879.0473998907106
+    },
+    "J_221": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.4473
+      ],
+      "arrival_type": "planned",
+      "due_date": 884.2366048907106
+    },
+    "J_222": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.2661,
+        2.877
+      ],
+      "arrival_type": "planned",
+      "due_date": 887.0671948907107
+    },
+    "J_223": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.1971,
+        0.3055
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.8446698907106
+    },
+    "J_224-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        83.6863,
+        13.0223,
+        6.744
+      ],
+      "arrival_type": "emergency",
+      "due_date": 982.9421698907106
+    },
+    "J_224-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.0542,
+        11.034,
+        2.3545
+      ],
+      "arrival_type": "emergency",
+      "due_date": 889.4817748907107
+    },
+    "J_225-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        3.7401
+      ],
+      "arrival_type": "planned",
+      "due_date": 878.2440448907106
+    },
+    "J_225-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.8355,
+        11.9896
+      ],
+      "arrival_type": "planned",
+      "due_date": 890.9332948907106
+    },
+    "J_226-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.9717
+      ],
+      "arrival_type": "planned",
+      "due_date": 876.3872248907106
+    },
+    "J_226-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        20.806,
+        32.0563
+      ],
+      "arrival_type": "planned",
+      "due_date": 929.8223548907106
+    },
+    "J_227-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        19.9528,
+        3.3063
+      ],
+      "arrival_type": "planned",
+      "due_date": 898.7389948907106
+    },
+    "J_227-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.737
+      ],
+      "arrival_type": "planned",
+      "due_date": 884.5407898907106
+    },
+    "J_228-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.9858
+      ],
+      "arrival_type": "planned",
+      "due_date": 876.4020298907107
+    },
+    "J_228-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0693
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.3897048907106
+    },
+    "J_229-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        10.228
+      ],
+      "arrival_type": "planned",
+      "due_date": 885.0563398907107
+    },
+    "J_229-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0285,
+        5.6196,
+        0.0985
+      ],
+      "arrival_type": "planned",
+      "due_date": 880.3508698907107
+    },
+    "J_229-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.7255,
+        15.4397
+      ],
+      "arrival_type": "planned",
+      "due_date": 892.3403998907106
+    },
+    "J_229-B4": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        13.1905,
+        27.912
+      ],
+      "arrival_type": "planned",
+      "due_date": 917.4745648907107
+    },
+    "J_229-B5": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        6.2778
+      ],
+      "arrival_type": "planned",
+      "due_date": 880.9086298907106
+    },
+    "J_230": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.0712,
+        0.0239,
+        0.0943
+      ],
+      "arrival_type": "planned",
+      "due_date": 878.7158098907106
+    },
+    "J_231": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.567,
+        24.0733,
+        4.3028
+      ],
+      "arrival_type": "emergency",
+      "due_date": 907.8571948907106
+    },
+    "J_232-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        29.5668,
+        12.3923,
+        0.4793
+      ],
+      "arrival_type": "emergency",
+      "due_date": 918.8772598907107
+    },
+    "J_232-B2": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.8642,
+        22.317,
+        0.0186
+      ],
+      "arrival_type": "emergency",
+      "due_date": 902.8767298907106
+    },
+    "J_232-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        4.7341,
+        13.0136,
+        12.1639
+      ],
+      "arrival_type": "emergency",
+      "due_date": 905.7241198907107
+    },
+    "J_233": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0278,
+        0.0744
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.4242498907106
+    },
+    "J_234-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.5252
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.8683998907106
+    },
+    "J_234-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.055
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.3746898907107
+    },
+    "J_234-B3": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        3.1211,
+        18.8102,
+        3.5251
+      ],
+      "arrival_type": "planned",
+      "due_date": 901.0461598907107
+    },
+    "J_234-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.7839,
+        75.0153,
+        3.6324
+      ],
+      "arrival_type": "planned",
+      "due_date": 965.0701198907107
+    },
+    "J_234-B5": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        18.4989,
+        4.4895
+      ],
+      "arrival_type": "planned",
+      "due_date": 898.4547598907106
+    },
+    "J_235-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        2.7625
+      ],
+      "arrival_type": "planned",
+      "due_date": 877.2175648907106
+    },
+    "J_235-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.292
+      ],
+      "arrival_type": "planned",
+      "due_date": 875.6735398907106
+    },
+    "J_235-B3": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        1.0344
+      ],
+      "arrival_type": "planned",
+      "due_date": 875.4030598907107
+    },
+    "J_236": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.2115
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.5390148907106
+    },
+    "J_237": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        23.0172,
+        0.6843
+      ],
+      "arrival_type": "planned",
+      "due_date": 899.2035148907106
+    },
+    "J_238": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.3751
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.7107948907106
+    },
+    "J_239": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        11.0665
+      ],
+      "arrival_type": "planned",
+      "due_date": 885.9367648907106
+    },
+    "J_240-B1": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.172,
+        0.1578
+      ],
+      "arrival_type": "emergency",
+      "due_date": 874.6632298907106
+    },
+    "J_240-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        9.3571
+      ],
+      "arrival_type": "emergency",
+      "due_date": 884.1418948907107
+    },
+    "J_241": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        1.1643,
+        13.5818,
+        3.009
+      ],
+      "arrival_type": "emergency",
+      "due_date": 892.9597948907107
+    },
+    "J_242-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        38.6782,
+        18.6406,
+        15.064
+      ],
+      "arrival_type": "emergency",
+      "due_date": 950.3188798907106
+    },
+    "J_242-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        58.533,
+        17.4098
+      ],
+      "arrival_type": "emergency",
+      "due_date": 954.0568798907107
+    },
+    "J_242-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        12.6471,
+        35.1225
+      ],
+      "arrival_type": "emergency",
+      "due_date": 924.4750198907107
+    },
+    "J_243": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        5.8748
+      ],
+      "arrival_type": "emergency",
+      "due_date": 880.4854798907106
+    },
+    "J_244": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.3407
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.6746748907107
+    },
+    "J_245": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.983,
+        6.4489,
+        11.5046
+      ],
+      "arrival_type": "planned",
+      "due_date": 901.5502648907107
+    },
+    "J_246": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.1368
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.4605798907106
+    },
+    "J_247": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0112,
+        8.8121,
+        16.8433
+      ],
+      "arrival_type": "planned",
+      "due_date": 901.2668698907106
+    },
+    "J_248": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        24.0324,
+        55.7804,
+        6.7643
+      ],
+      "arrival_type": "planned",
+      "due_date": 965.2228948907107
+    },
+    "J_249": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        16.4983,
+        56.1306,
+        0.1042
+      ],
+      "arrival_type": "emergency",
+      "due_date": 950.6866948907107
+    },
+    "J_250": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.6959
+      ],
+      "arrival_type": "emergency",
+      "due_date": 875.0476348907106
+    },
+    "J_251": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.3445
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.6786648907106
+    },
+    "J_252": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        2.7021,
+        35.2364,
+        21.188
+      ],
+      "arrival_type": "planned",
+      "due_date": 936.3997648907106
+    },
+    "J_253-B1": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.7217
+      ],
+      "arrival_type": "planned",
+      "due_date": 875.0747248907106
+    },
+    "J_253-B2": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        9.3445,
+        5.1173
+      ],
+      "arrival_type": "planned",
+      "due_date": 889.5018298907106
+    },
+    "J_254-B1": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        7.9991,
+        2.2975,
+        2.8955
+      ],
+      "arrival_type": "planned",
+      "due_date": 888.1686448907107
+    },
+    "J_254-B2": {
+      "job_family": "ProductC",
+      "routing": [
+        "GroupC"
+      ],
+      "process_times": [
+        0.0316
+      ],
+      "arrival_type": "planned",
+      "due_date": 874.3501198907106
+    },
+    "J_254-B3": {
+      "job_family": "ProductB",
+      "routing": [
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        24.3902,
+        53.0956
+      ],
+      "arrival_type": "planned",
+      "due_date": 955.6770298907106
+    },
+    "J_254-B4": {
+      "job_family": "ProductA",
+      "routing": [
+        "GroupA",
+        "GroupB",
+        "GroupC"
+      ],
+      "process_times": [
+        0.0064,
+        17.4512,
+        7.7726
+      ],
+      "arrival_type": "planned",
+      "due_date": 900.8086498907106
+    }
+  }
+}

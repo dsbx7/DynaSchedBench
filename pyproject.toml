@@ -1,0 +1,121 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsbx"
+version = "0.3.0"
+authors = [
+    { name = "Shijie Cao", email = "shijiecao@slai.edu.cn" },
+    { name = "Yuan Yuan" },
+    { name = "Jing Liu" },
+]
+description = "Calibrated dynamic scheduling benchmarks and tools for LLM-based scheduling-agent analysis."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+keywords = [
+    "dynamic scheduling",
+    "dynamic flexible job shop scheduling",
+    "job shop scheduling",
+    "benchmark",
+    "simulation",
+    "LLM scheduling",
+    "ICML",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "typer>=0.9.0",
+    "pydantic>=2.0.0",
+    "simpy>=4.0.0",
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "pyarrow>=10.0.0",
+    "jinja2>=3.0.0",
+    "pyyaml>=6.0",
+    "loguru>=0.7.0",
+    "openai>=1.0.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.12.0",
+    "flask>=3.0.0",
+    "scipy>=1.7.0",
+    "adamod>=0.0.3",
+    "tenacity>=8.0.0",
+    "typing-extensions>=4.8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build>=1.2.0",
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "pytest-timeout>=2.2.0",
+    "pymoo>=0.6.0",
+    "psutil>=5.9.0",
+    "ruff>=0.1.0",
+    "mypy>=1.0.0",
+    "black>=23.0.0",
+    "twine>=5.0.0",
+]
+docs = [
+    "sphinx>=7.0.0",
+    "sphinx-rtd-theme>=2.0.0",
+    "myst-parser>=2.0.0",
+    "sphinx-autodoc-typehints>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://dsbx7.github.io/"
+Documentation = "https://dsbx.readthedocs.io/"
+Repository = "https://github.com/dsbx7/DynaSchedBench"
+Issues = "https://github.com/dsbx7/DynaSchedBench/issues"
+
+[project.scripts]
+dsbx-gen = "dsbx.Gen.CLI:app"
+dsbx-eval = "dsbx.Eval.CLI:app"
+dsbx-agent = "dsbx.Agents.CLI:app"
+dsbx-vis = "dsbx.Vis.CLI:app"
+dsbx-sim = "dsbx.Sim.CLI:app"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["dsbx*"]
+exclude = ["tests*", "docs*", "examples*", "research*"]
+
+[tool.setuptools.exclude-package-data]
+dsbx = [
+    "Agents/LLMCoder/sandbox_eval_pool/**",
+    "Agents/LLMCoder/sandbox_eval_pool_jms/**",
+    "Agents/RACEC/sandbox_eval_pool/**",
+    "Agents/RACEC/sandbox_eval_pool_jms/**",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "UP", "B", "A", "C4"]
+ignore = ["E501"]
+
+[tool.mypy]
+strict = false
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-q"

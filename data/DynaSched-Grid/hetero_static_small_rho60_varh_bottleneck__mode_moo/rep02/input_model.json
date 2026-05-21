@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "grid": 1.0,
+    "seed": 4062,
+    "version": "2.0"
+  },
+  "plant": {
+    "machines": [
+      {
+        "id": "G1-M1",
+        "group": "GroupA",
+        "speed": 1.5
+      },
+      {
+        "id": "G1-M2",
+        "group": "GroupA",
+        "speed": 0.8
+      },
+      {
+        "id": "G2-M1",
+        "group": "GroupB",
+        "speed": 1.2
+      },
+      {
+        "id": "G2-M2",
+        "group": "GroupB",
+        "speed": 0.9
+      },
+      {
+        "id": "G3-M1",
+        "group": "GroupC",
+        "speed": 1.0
+      },
+      {
+        "id": "G3-M2",
+        "group": "GroupC",
+        "speed": 0.7
+      }
+    ],
+    "process_templates": [
+      {
+        "family": "ProductA",
+        "route": [
+          {
+            "machine_group": "GroupA",
+            "process_time": {
+              "dist": "const",
+              "mean": 10.0,
+              "scv": 0.0
+            }
+          },
+          {
+            "machine_group": "GroupB",
+            "process_time": {
+              "dist": "const",
+              "mean": 12.0,
+              "scv": 0.0
+            }
+          },
+          {
+            "machine_group": "GroupC",
+            "process_time": {
+              "dist": "const",
+              "mean": 8.0,
+              "scv": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "family": "ProductB",
+        "route": [
+          {
+            "machine_group": "GroupB",
+            "process_time": {
+              "dist": "const",
+              "mean": 9.0,
+              "scv": 0.0
+            }
+          },
+          {
+            "machine_group": "GroupC",
+            "process_time": {
+              "dist": "const",
+              "mean": 10.0,
+              "scv": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "family": "ProductC",
+        "route": [
+          {
+            "machine_group": "GroupC",
+            "process_time": {
+              "dist": "const",
+              "mean": 7.0,
+              "scv": 0.0
+            }
+          }
+        ]
+      }
+    ],
+    "job_mix_weights": [
+      0.34,
+      0.33,
+      0.33
+    ]
+  },
+  "scale": {
+    "horizon": 510.01821493624783,
+    "jobs_total": 100,
+    "num_machines": null,
+    "num_job_families": null
+  },
+  "dynamics": {
+    "arrival_pattern": "constant",
+    "arrival_amplitude": 0.0,
+    "arrival_period": null
+  },
+  "targets": {
+    "rho_global": 0.6,
+    "rho_bottleneck": [],
+    "load_cv": 0.2,
+    "ddt": 4.976,
+    "scv_a": 2.0,
+    "scv_p": 2.0,
+    "disturbance": 0.05,
+    "availability": null
+  },
+  "dynamic_scenarios": {
+    "cancellation_rate": 0.0,
+    "priority_change_rate": 0.0,
+    "emergency_job_ratio": 0.1,
+    "emergency_priority": -1,
+    "normal_priority_change_value": 0,
+    "rework_probability": 0.0,
+    "ptime_change_rate": 0.0,
+    "ptime_change_multiplier": 1.0,
+    "pm_interval": 0.0,
+    "pm_duration_mean": 10.0,
+    "pm_duration_std": 2.0,
+    "batch_arrival_probability": 0.0,
+    "batch_size_mean": 3.0,
+    "batch_size_std": 1.0,
+    "route_change_probability": 0.0,
+    "due_date_change_probability": 0.0,
+    "due_date_tightening_ratio": 0.5,
+    "due_date_change_factor": 0.3
+  },
+  "evaluation": {
+    "mode": "cold_start",
+    "initial_wip_method": "auto",
+    "n0_initial": 0
+  },
+  "calibration": {
+    "mode": "sequential",
+    "max_steps": 25,
+    "moo_population_size": 60,
+    "moo_n_generations": 40,
+    "hybrid_population_size": 80,
+    "hybrid_n_generations": 100,
+    "hybrid_convergence_window": 10,
+    "hybrid_convergence_tol": 0.0005,
+    "hybrid_max_sequential_steps": 7,
+    "seq_early_stop_no_improve_steps": 3,
+    "seq_early_stop_relax_factor": 2.0,
+    "seq_min_relative_improvement": 0.005,
+    "seq_tol_rho_global": null,
+    "seq_tol_scv_a": null,
+    "seq_tol_scv_p": null,
+    "seq_tol_ddt": null,
+    "seq_tol_disturbance": null,
+    "seq_tol_load_cv": null
+  },
+  "tolerance": {
+    "l2": 0.1,
+    "tv": 0.1
+  },
+  "outputs": {
+    "path": "runs/benchmark_v2/static/hetero/hetero_static_small_rho60_varh_bottleneck"
+  }
+}

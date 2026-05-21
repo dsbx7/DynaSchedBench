@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "grid": 1.0,
+    "seed": 42,
+    "version": "2.0"
+  },
+  "plant": {
+    "machines": [
+      {
+        "id": "cut-1",
+        "group": "cutting",
+        "speed": 1.0
+      },
+      {
+        "id": "cut-2",
+        "group": "cutting",
+        "speed": 1.1
+      },
+      {
+        "id": "asm-1",
+        "group": "assembly",
+        "speed": 1.0
+      },
+      {
+        "id": "test-1",
+        "group": "testing",
+        "speed": 0.9
+      }
+    ],
+    "process_templates": [
+      {
+        "family": "standard",
+        "route": [
+          {
+            "machine_group": "cutting",
+            "process_time": {
+              "dist": "const",
+              "mean": 6.0,
+              "scv": 0.0
+            }
+          },
+          {
+            "machine_group": "assembly",
+            "process_time": {
+              "dist": "const",
+              "mean": 8.0,
+              "scv": 0.0
+            }
+          },
+          {
+            "machine_group": "testing",
+            "process_time": {
+              "dist": "const",
+              "mean": 5.0,
+              "scv": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "family": "express",
+        "route": [
+          {
+            "machine_group": "cutting",
+            "process_time": {
+              "dist": "const",
+              "mean": 5.0,
+              "scv": 0.0
+            }
+          },
+          {
+            "machine_group": "testing",
+            "process_time": {
+              "dist": "const",
+              "mean": 4.0,
+              "scv": 0.0
+            }
+          }
+        ]
+      }
+    ],
+    "job_mix_weights": [
+      0.75,
+      0.25
+    ]
+  },
+  "scale": {
+    "horizon": 240.0,
+    "jobs_total": 40
+  },
+  "dynamics": {
+    "arrival_pattern": "periodic",
+    "arrival_amplitude": 0.25,
+    "arrival_period": 80.0
+  },
+  "targets": {
+    "rho_global": 0.65,
+    "ddt": 1.5,
+    "scv_a": 1.0,
+    "scv_p": 0.5,
+    "disturbance": 0.05
+  },
+  "dynamic_scenarios": {
+    "priority_change_rate": 0.05,
+    "emergency_job_ratio": 0.05,
+    "emergency_priority": -1,
+    "normal_priority_change_value": 0,
+    "ptime_change_rate": 0.02,
+    "ptime_change_multiplier": [
+      0.8,
+      1.2
+    ],
+    "batch_arrival_probability": 0.05,
+    "batch_size_mean": 3.0,
+    "batch_size_std": 1.0
+  },
+  "evaluation": {
+    "mode": "cold_start",
+    "initial_wip_method": "auto"
+  },
+  "calibration": {
+    "mode": "sequential",
+    "max_steps": 5
+  },
+  "outputs": {
+    "path": "runs/minimal"
+  }
+}
